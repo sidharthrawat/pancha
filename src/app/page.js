@@ -1,7 +1,10 @@
+import { HeaderTop } from "./components/HeaderTop";
 
 
 export default function Home() {
   return (
-    <main>Hello</main>
+    <main>
+      <HeaderTop />
+    </main>
   )
 }
